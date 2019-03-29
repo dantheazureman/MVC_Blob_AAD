@@ -1,7 +1,8 @@
 ---
 services: storage
 platforms: dotnet
-author: perrysk-msft
+author: perrysk-msft, jmprieur
+modifier: dakim
 ---
 
 ## .NET Photo Gallery Web Application Sample with Azure Blob Storage
@@ -12,6 +13,8 @@ This sample application creates a web photo gallery that allows you to host and 
 
 
 ## Solution has been modified to integrate with Azure Active Directory
+
+Merged two projects together: [OpenId-MVC](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect) + [Storage-dotnet](https://github.com/Azure-Samples/storage-blobs-dotnet-webapp)
 
 This is a demo to showcase the uploading of files to Blobstorage from your MVC project leveraging Azure Active Directory :)
 
