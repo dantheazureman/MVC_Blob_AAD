@@ -21,19 +21,22 @@ In order for the Azure AD to work you need to do the following:
 1. Go to Your [Azure Portal](portal.azure.com) and search for **Active Directory**.
 2. Follow this [instruction](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-add-azure-ad-app) to register your app. (*it may be a LITTLE outdated but it is straight forward*)
 3. Once you have registered the app. Go **Click** on the app and it will take you to an Overview page.
-4. Copy the **Application ID** (*Not the Object ID*)
+4. Note the **Application ID** (*Not the Object ID*)
 
 ### Get the Connection String from your Storage Account
 1. Go to Your (Azure Portal)[portal.azure.com] and search for **Storage Account**.
   - If you do not have a storage account, please [Create a Storage Account](https://azure.microsoft.com/en-us/documentation/articles/storage-create-storage-account/)  
 2. Go to your desired Storage Account then go to **Access Keys**
-3. Copy the **Connection String**
+3. Note the **Connection String**
 
-**Copy these values into the Web.Config** (I have noted where to put it within the file)
+### Remember the Application ID and the Connection String?
+1. **Copy** these values into the Web.Config (I have noted where to put it within the file)
+2. This should allow your application to integrate with Azure Active Directory. 
 
-This should allow your application to integrate with Azure Active Directory. Only when you are authenticated, you should be able to see the '**Select File**' button to upload.
+Only when you are authenticated, you should be able to see the '**Select File**' button to upload.
 
-Below should give you more detailed instructions to get the application running in general.
+
+*Below is more detailed instructions to get the application running in general.*
 
 ### Technologies used
 - ASP.NET MVC 5
