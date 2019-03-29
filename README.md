@@ -1,7 +1,19 @@
+---
+services: storage
+platforms: dotnet
+author: perrysk-msft
+---
+
+## .NET Photo Gallery Web Application Sample with Azure Blob Storage
+
+This sample application creates a web photo gallery that allows you to host and view images through a .NET web frontend. The code sample also includes functionality for deleting images. At the end, you have the option of deploying the application to Azure.
+
+![Azure Blob Storage Photo Gallery Web Application Sample .NET](./images/photo-gallery.png)
+
+
 ## Solution has been modified to integrate with Azure Active Directory
 
 This is a demo to showcase the uploading of files to Blobstorage from your MVC project leveraging Azure Active Directory :)
-
 
 In order for the Azure AD to work you need to do the following:
 
@@ -22,18 +34,6 @@ In order for the Azure AD to work you need to do the following:
 This should allow your application to integrate with Azure Active Directory. Only when you are authenticated, you should be able to see the '**Select File**' button to upload.
 
 Below should give you more detailed instructions to get the application running in general.
-
----
-services: storage
-platforms: dotnet
-author: perrysk-msft
----
-
-## .NET Photo Gallery Web Application Sample with Azure Blob Storage
-
-This sample application creates a web photo gallery that allows you to host and view images through a .NET web frontend. The code sample also includes functionality for deleting images. At the end, you have the option of deploying the application to Azure.
-
-![Azure Blob Storage Photo Gallery Web Application Sample .NET](./images/photo-gallery.png)
 
 ### Technologies used
 - ASP.NET MVC 5
