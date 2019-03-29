@@ -7,7 +7,7 @@ In order for the Azure AD to work you need to do the following:
 
 ### Get the Client/Application ID from Azure Portal
 1. Go to Your [Azure Portal](portal.azure.com) and search for **Active Directory**.
-2. Follow this [instruction](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-add-azure-ad-app] to register your app. (*it may be a LITTLE outdated but it is straight forward*)
+2. Follow this [instruction](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-add-azure-ad-app) to register your app. (*it may be a LITTLE outdated but it is straight forward*)
 3. Once you have registered the app. Go **Click** on the app and it will take you to an Overview page.
 4. Copy the **Application ID** (*Not the Object ID*)
 
